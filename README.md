@@ -22,7 +22,7 @@ MiniShop es un e-commerce realizado durante mi curso de Django para aprender y p
 5. Abre tu navegador y accede a http://127.0.0.1:8000/ para ver la aplicación en funcionamiento.
 
 ## Configuración del correo electrónico
-Minishop utiliza el servicio de envío de correos electrónicos. Para que esta función funcione correctamente, configura las siguientes variables de entorno en tu entorno de desarrollo:
+MiniShop utiliza el servicio de envío de correos electrónicos. Para que esta función funcione correctamente, configura las siguientes variables dentro del archivo settings.py:
 
 - EMAIL_HOST: El host del servidor de correo saliente.
 - EMAIL_PORT: El puerto del servidor de correo saliente.
