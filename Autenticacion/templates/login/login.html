@@ -1,0 +1,23 @@
+{% extends "ProyectoWebApp/base.html" %}
+
+{% load static %}
+
+{% block content %}
+
+    <div class="form-container">
+        <form action="" method="POST" style="text-align: center; color: white;">
+            <h2 style="text-align: center; color: #fff;">Bienvenido Nuevamente</h2>
+            {% csrf_token %}
+            {% if messages %}
+                {% for msg in messages %}
+                    <span class="alert alert-{{ msg.tags }}">{{ msg }}</span>
+                {% endfor %}
+            {% endif %}
+            <br><br>
+            {{ form.as_p }}
+            <br>
+            <button type="submit" class="btn btn-success">Iniciar Sesión</button>
+        </form>
+    </div>
+
+{% endblock %}

@@ -1,0 +1,19 @@
+{% extends "ProyectoWebApp/base.html" %}
+
+{% load static %}
+
+{% block content %}
+
+    <div class="form-container">
+        {% if "valid" in request.GET %}
+            <h3 style="text-align: center;" class="alert alert-success">Información enviada correctamente!</h3>
+        {% endif %}
+        <h2 class="mb-4" style="text-align: center; color: #fff;">Contáctanos</h2>
+        <form method="POST" style="text-align: center; color: white;">
+            {%csrf_token%}
+            <table style="margin: 20px auto;">{{ form.as_div }}</table>
+            <input type="submit" class="btn btn-success mt-2">
+        </form>
+    </div>
+
+{% endblock %}
