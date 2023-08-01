@@ -1,5 +1,7 @@
 # MiniShop - E-commerce con Django
 
+![Sección de la Tienda](media/readme.png)
+
 ## Descripción
 MiniShop es un e-commerce realizado durante mi curso de Django para aprender y practicar conceptos fundamentales de desarrollo Backend con este framework. Permite a los usuarios realizar pedidos de compras ficticias, recibir confirmaciones por correo electrónico y utilizar un sistema de inicio de sesión seguro.
 
