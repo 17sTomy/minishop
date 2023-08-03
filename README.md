@@ -29,3 +29,6 @@ MiniShop utiliza el servicio de envío de correos electrónicos. Para que esta f
 - EMAIL_HOST_USER: Tu dirección de correo electrónico.
 - EMAIL_HOST_PASSWORD: Tu contraseña de correo electrónico.
 - EMAIL_USE_TLS: Establece en True si se requiere TLS para conexiones seguras.
+
+## Link al proyecto
+[Visualiza el proyecto desde aquí.](https://minishop-django.onrender.com)
