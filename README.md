@@ -31,4 +31,4 @@ MiniShop utiliza el servicio de envío de correos electrónicos. Para que esta f
 - EMAIL_USE_TLS: Establece en True si se requiere TLS para conexiones seguras.
 
 ## Link al proyecto
-[Visualiza el proyecto desde aquí.](https://minishop-django.onrender.com)
+[Visualiza el proyecto desde aquí.](https://minishop-django.onrender.com){target="_blank"}
